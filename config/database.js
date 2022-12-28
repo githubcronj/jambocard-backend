@@ -5,7 +5,7 @@
       connection: {
         host: env('DATABASE_HOST', 'strapiDB'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_DATABASE', 'strapi-project'),
+        database: env('DATABASE_NAME', 'strapi-project'),
         user: env('DATABASE_USER', 'postgres'),
         password: env('DATABASE_PASSWORD',"test123")
       },
