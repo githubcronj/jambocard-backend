@@ -1,3 +1,61 @@
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`DATABASE_HOST`
+
+`DATABASE_PORT`
+
+`DATABASE_NAME`
+
+`DATABASE_USERNAME`
+
+`DATABASE_PASSWORD`
+
+`DATABASE_URL`
+
+`DATABASE_CLIENT`
+
+`HOST`
+
+`PORT`
+
+`APP_KEYS`
+
+`API_TOKEN_SALT`
+
+`ADMIN_JWT_SECRET`
+
+`JWT_SECRET`
+
+
+## Installation and Commands
+
+Docker commands:
+```bash
+1. sudo apt-get install update;
+
+2. sudo apt install docker-compose
+
+3. sudo docker-compose up --build -d  //to build the app in docker and run containers.
+
+4. sudo docker images --> to get all the images in docker.
+
+# once you run the command 3, so the services will be running on their indivisual conatiner on specified ports and we can communicate with them using our API Endpoints.
+5. sudo docker ps -a  --> to get all the containers list
+
+# To check the logs from the server_Conatainer use :
+6. sudo docker logs "conatiner_Name/conatiner-ID"
+
+# To start/Stop conatiner:
+7. sudo docker start/stop "conatiner-Name/conatiner_id"
+
+# To remove all containers :
+8. sudo docker-compose down 
+
+```
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
